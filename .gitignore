@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing / Coverage
+.tox/
+.pytest_cache/
+.cache
+.coverage
+nosetests.xml
+coverage.xml
+
+# Environments
+backend/project/settings/environments/local.py
+
+# Uploaded files
+backend/data/
+
+# Distributing / Building
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+target/
+docs/_build/
+
+# Logging
+*.log
+
+# Any dot file
+.*
+!/.gitignore
+!/.gitlab-ci.yml
+
+# mkdocs documentation
+/site
+/html

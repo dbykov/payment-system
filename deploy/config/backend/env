@@ -1,0 +1,5 @@
+DJANGO_SETTINGS_MODULE=project.settings
+PAYSYS_DJANGO_ENV=production
+PAYSYS_DJANGO_DEBUG=True
+PAYSYS_DJANGO_DATABASE_URL=pg://payment:M7pq5vAm33BMe5w8@postgresql:5432/payment
+PAYSYS_CACHE_URL=redis://redis:6379/1

@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mixer = "*"
+
+[packages]
+django = "*"
+django-rest-framework = "*"
+typeguard = "*"
+django-filter = "*"
+django-environ = "*"
+gunicorn = "*"
+django-redis = "*"
+django-split-settings = "*"
+psycopg2 = "*"
+
+[requires]
+python_version = "3.7"
